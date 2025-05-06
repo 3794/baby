@@ -12,7 +12,7 @@ export const metadata = {
 const navbar = (
   <Navbar
     logo={
-      <div>Programming Principles</div>
+      <div>임신, 출산, 육아</div>
       //   <img src="/images/general/logo.svg" alt="Logo" width={100} height={20} />
     }
     // ... Your additional navbar options
@@ -40,7 +40,7 @@ export default async function RootLayout({ children }) {
         <Layout
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/3794/principles/tree/main"
+          // docsRepositoryBase="https://github.com/3794/principles/tree/main"
           footer={footer}
           // ... Your additional layout options
         >
