@@ -16,8 +16,20 @@ const meta: MetaRecord = {
   birth: {
     title: "출산",
   },
-  childcare: {
-    title: "육아",
+  newborn: {
+    title: "신생아",
+  },
+  infant: {
+    title: "영아",
+  },
+  toddler: {
+    title: "걸음마",
+  },
+  preschooler: {
+    title: "유아",
+  },
+  safety: {
+    title: "안전",
   },
   resources: {
     title: "자료",
