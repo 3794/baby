@@ -25,6 +25,9 @@ const meta: MetaRecord = {
   preschooler: {
     title: "Preschooler",
   },
+  medical_facility: {
+    title: "의료 기관",
+  },
   safety: {
     title: "안전",
   },
