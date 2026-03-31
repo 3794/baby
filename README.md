@@ -1,40 +1,27 @@
-# Nextra Docs Starter 
+# 임신, 출산, 육아 종합 가이드
 
-This starter template includes the following features:
+예비 부모와 육아 중인 부모를 위한 임신부터 유아까지의 육아 정보를 정리한 문서 사이트입니다.
 
-- [x] **Nextra 4**
-- [x] **Search with Pagefind**
-- [x] **Lucide Icons**
+## 설치 및 실행
 
-[**Live Demo →**](https://nextra-docs-starter.vercel.app)
-
-[![](.github/screenshot.png)](https://nextra-docs-starter.vercel.app)
-
-## Quick Start
-
-You can deploy this template on Vercel by clicking the button below
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fphucbm%2Fnextra-docs-starter)
-
-## Local Development
-
-### Clone this repository
-
-Using the GitHub CLI:
-```bash
-gh repo clone phucbm/nextra-docs-starter
-```
-
-### Install
+### 설치
 ```bash
 pnpm i
 ```
 
-### Run the development server
+### 개발 서버 실행
 ```bash
 pnpm dev
 ```
 
-## License
+### 빌드
+```bash
+pnpm build
+```
 
-This project is licensed under the MIT License.
+## 포함된 기능
+
+- 임신, 영아, 유아별 육아 가이드
+- 건강, 예방접종, 수유 등 의료 정보
+- 안전, 응급상황 등 생활 정보
+- Pagefind를 통한 검색 기능
